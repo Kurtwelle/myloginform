@@ -6,7 +6,7 @@
 }
 .container{
     display: flex;
-    background-color: blueviolet;
+    background-color: rgb(25, 11, 38);
     width: 100%;
     height: 100vh;
     align-items: center;
@@ -17,14 +17,16 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    width: 450px;
-    height: 350px;
-    background-color:#ffffff;
+    width: 550px;
+    height: 300px;
+    background-color:#24032d;
     border-radius: 10px;
     /* padding: 20px; */
     /* margin: 20px; */
     align-items: 10px;
     align-content: content;
+    border-right: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 1.5);
 }
 
 .firstcontent{
@@ -33,8 +35,9 @@
     background-color: #ffffff;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    height: 350px;
-    border-top-right-radius: 450px;
+    height: 300px;
+    width: 330px;
+    border-top-right-radius: 200px;
 }
 
 .signContainer{
@@ -48,7 +51,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-    font-weight: 700px;
+    font-weight: bold;
 }
 
 #iconContainer{
@@ -57,6 +60,7 @@
     display: flex;
     flex-direction: row;
     margin-left: 20px;
+    
 }
 
 .fbiconContainer{
@@ -66,6 +70,7 @@
     margin-left: 5px;
     border-radius: 5px;
     cursor: pointer; 
+    border-color:#a6a2a2 ;
 }
 
 .fbicon{
@@ -82,6 +87,7 @@
     margin-left: 5px;
     border-radius: 5px;
     cursor: pointer;
+    border-color: #a6a2a2;
 }
 
 .Gicon{
@@ -97,6 +103,7 @@
     margin-left: 5px;
     border-radius: 5px;
     cursor: pointer;
+    border-color: #a6a2a2;
 }
 
 .Giticon{
@@ -109,7 +116,8 @@
     border: 2px solid;
     margin-left: 5px;
     border-radius: 5px;
-    cursor: pointer; 
+    cursor: pointer;
+    border-color: #a6a2a2; 
 }
 
 .linkedinicon{
@@ -127,7 +135,7 @@
     width: 100%;
     font-size: 11px;
     font-weight: 100px;
-    color: #ffffff;
+    color: #a6a2a2;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -144,6 +152,7 @@ label{
     height: 30px;
     /* cursor: pointer; */
     border-color: blue;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.5);
 }
 
 .password{
@@ -151,6 +160,8 @@ label{
     height: 30px;
     /* cursor: pointer; */
     border-color: blue;
+    background-color: linear-gradient(rgb(17, 0, 26), #350068);;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.5);
 }
 
 .bottomContent{
@@ -161,7 +172,7 @@ label{
 }
 
 .instruction-2{
-    color: #ffffff;
+    color: #a6a2a2;
     font-size: 11px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -173,19 +184,34 @@ label{
     height: 24px;
     color: rgb(241, 237, 245);
     cursor: pointer;
-    background-color: blueviolet;
+    background: linear-gradient(rgb(17, 0, 26), #350068);
     border-color: blueviolet;
     margin-left: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.5);
+    font-size: 9px;
 }
+
+
+.emptycontainer{
+    width: 150px;
+    height: 150px;
+    background-color:rgb(243, 12, 12);
+    background: linear-gradient();
+    border-radius: 100%;
+}
+
+
 
 .secondContainer{
     /* margin-right: 14px; */
     padding: 20px;
     background-color: rgb(243, 12, 12);
+    background: linear-gradient(rgb(17, 0, 26), #350068);
     border-bottom-left-radius: 350px;
-    border-top-left-radius: 350px;
-    bord
-    border-radius: 0px;
+    border-top-left-radius: -200px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; 
+    width: 350px  
 }
 
 .secondContent{
@@ -203,7 +229,7 @@ label{
 
 .content-b{
     color: #ffffff;
-    font-size: 14px;
+    font-size: 11px;
     font-style: initial;
     margin-left: 5px;
     margin-top: 10px;
@@ -212,7 +238,13 @@ label{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+br{
+    margin-left: 40px;
+    
+}
+
 .Sign-up{
+    font-size: 8px;
     border: 2px solid;
     border-radius: 5px;
     width: 70px;
@@ -222,4 +254,6 @@ label{
     background-color: blueviolet;
     border-color: #ffffff;
     margin-left: 70px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.5);
+    background: linear-gradient(rgb(17, 0, 26), #350068);;
 }
