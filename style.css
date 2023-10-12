@@ -26,6 +26,7 @@
     align-items: 10px;
     align-content: content;
     border-right: 20px;
+    background-color: rgb(53, 3, 55);
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 1.5);
 }
 
@@ -33,11 +34,11 @@
     /* margin-right: 14px; */
     padding: 20px;
     background-color: #ffffff;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     height: 300px;
-    width: 330px;
-    border-top-right-radius: 200px;
+    width: 300px;
+    border-top-right-radius: 140px;
 }
 
 .signContainer{
@@ -56,7 +57,7 @@
 
 #iconContainer{
     width: 20px;
-    height: 50px;
+    height: 35px;
     display: flex;
     flex-direction: row;
     margin-left: 20px;
@@ -128,7 +129,7 @@
     /* height: ; */
     width: 100%;
     margin-bottom: 20px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .instruction{
@@ -192,26 +193,54 @@ label{
 }
 
 
-.emptycontainer{
-    width: 150px;
-    height: 150px;
-    background-color:rgb(243, 12, 12);
+.intersection{
+    display: flex;
+    flex-direction: column;
+    width: 0px;
+    height: 300px;
+    background-color: #ffffff;
     background: linear-gradient();
-    border-radius: 100%;
+    border-radius: 0px;
+    margin-bottom: 0px;
 }
 
+.intersect-1 {
+    display: flex;
+    background-color: #24032d;
+    flex-direction: column;
+    border-radius: 0px;
+    height: 140px;
+    margin-bottom: 120px;
+}
 
+.down {
+    margin-top: -60px;
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: column;
+    border-radius: 0px;
+    height: 180px;
+    width: 150px;
+    border-top-right-radius: 100%px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
+    /* background: linear-gradient(rgb(17, 0, 26), #350068);; */
+
+}
 
 .secondContainer{
     /* margin-right: 14px; */
     padding: 20px;
-    background-color: rgb(243, 12, 12);
-    background: linear-gradient(rgb(17, 0, 26), #350068);
-    border-bottom-left-radius: 350px;
-    border-top-left-radius: -200px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px; 
-    width: 350px  
+    /* background-color: rgb(243, 12, 12); */
+    background: linear-gradient( to right, rgb(17, 0, 26), #2e0545, #08000e);
+    background-position: center center center;
+    background-size: 100%;
+    border-bottom-left-radius: 1000%;
+    border-top-left-radius: 1200%;
+    border-bottom-right-radius: 100px;
+    border-top-right-radius: 100px; 
+    width: 330px;  
+    height: 300px;
 }
 
 .secondContent{
@@ -222,7 +251,7 @@ label{
     color: #ffffff;
     font-size: 20px;
     font-style: initial;
-    margin-left: 25px;
+    margin-left: 50px;
     font-weight: lighter;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -238,8 +267,8 @@ label{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-br{
-    margin-left: 40px;
+.br{
+    margin-left: 50px;
     
 }
 
