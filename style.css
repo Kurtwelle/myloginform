@@ -292,7 +292,7 @@ label{
         background-color: #f6f2f4;
         justify-content: center;
         flex-direction: column;
-        height: 100px;
+        height: 0px;
         width: 414px;
         margin-top: 10px;
     }
