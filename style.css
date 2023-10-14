@@ -286,3 +286,32 @@ label{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 1.5);
     background: linear-gradient(rgb(17, 0, 26), #350068);;
 }
+
+@media(max-width: 896px){
+    .card{
+        background-color: #f6f2f4;
+        justify-content: center;
+        flex-direction: column;
+        height: 100px;
+        width: 414px;
+        margin-top: 10px;
+    }
+    .firstcontent{
+        margin-left: 100px;
+    }
+    .intersection{
+        background-color:
+    }
+
+    .secondContainer{
+        margin-left: 100px;
+        background-color: #9e54b7 ;
+        margin-top: 100px;
+        width: 414px;
+    }
+
+    .container{
+        background-color: #ffffff;
+    }
+}
+
